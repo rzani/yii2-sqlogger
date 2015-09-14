@@ -1,0 +1,21 @@
+{
+    "name": "rzani/yii2-sqlogger",
+    "description": "Another logger extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sql","logger"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Zani",
+            "email": "rodrigo.zhs@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rzani\\yii2\\sqlogger\\": ""
+        }
+    }
+}
